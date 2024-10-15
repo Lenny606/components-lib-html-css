@@ -1,0 +1,30 @@
+:root {
+    /* Primary Colors */
+    --primary-color: #3498db;    /* Soft Blue */
+    --secondary-color: #2ecc71;  /* Fresh Green */
+    --tertiary-color: #f39c12;   /* Warm Orange */
+
+    /* Neutral Colors */
+    --light-gray: #ecf0f1;       /* Light Gray */
+    --medium-gray: #bdc3c7;      /* Medium Gray */
+    --dark-gray: #2c3e50;        /* Dark Blue-Gray */
+
+    /* Accent Colors */
+    --accent-pink: #e84393;      /* Vivid Pink */
+    --accent-yellow: #f1c40f;    /* Bright Yellow */
+    --accent-purple: #8e44ad;    /* Vibrant Purple */
+
+    /* Soft Pastels */
+    --pastel-blue: #a8dadc;      /* Calm Blue */
+    --pastel-pink: #ffb6b9;      /* Soft Pink */
+    --pastel-green: #81b29a;     /* Muted Green */
+    --pastel-purple: #c3aed6;    /* Soft Lavender */
+
+    /* Background Colors */
+    --background-light: #f7f7f7; /* Very Light Background */
+    --background-dark: #1a1a1a;  /* Dark Background */
+
+    /* Text Colors */
+    --text-color-light: #ffffff; /* White for dark backgrounds */
+    --text-color-dark: #333333;  /* Dark text on light backgrounds */
+}

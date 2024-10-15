@@ -1,0 +1,71 @@
+@import url('main.css');
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
+    color: var(--text-color-light);
+}
+
+.bg-secondary {
+    background-color: var(--secondary-color);
+    color: var(--text-color-light);
+}
+
+.bg-dark {
+    background-color: var(--background-dark);
+    color: var(--text-color-light);
+}
+
+.bg-light {
+    background-color: var(--background-light);
+    color: var(--text-color-dark);
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--text-color-light);
+    border: none;
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: var(--text-color-light);
+    border: none;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.mt-1 { margin-top: 10px; }
+.mt-2 { margin-top: 20px; }
+.mb-1 { margin-bottom: 10px; }
+.mb-2 { margin-bottom: 20px; }

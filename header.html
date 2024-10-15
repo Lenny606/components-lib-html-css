@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="A reusable HTML component template for multiple projects.">
+  <meta name="keywords" content="HTML, CSS, Reusable, Template, Component">
+  <meta name="author" content="Your Name">
+
+  <title>Title</title>
+
+  <!-- Favicon links (Add your own favicons if needed) -->
+  <link rel="icon" href="/path-to-your-favicon/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/path-to-your-favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/path-to-your-favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/path-to-your-favicon/favicon-16x16.png">
+
+  <!-- CSS Reset (Optional) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="all.css">
+
+  <!-- Fonts (Example: Google Fonts) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Open Graph Meta Tags for Social Sharing -->
+  <meta property="og:title" content="Title">
+  <meta property="og:description" content="A reusable HTML component template for multiple projects.">
+  <meta property="og:image" content="/path-to-your-image/social-image.png">
+  <meta property="og:url" content="https://your-site.com">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Mobile Web App Meta -->
+  <meta name="theme-color" content="#3498db">
+
+  <!-- Optional: Add PWA (Progressive Web App) Manifest -->
+  <!-- <link rel="manifest" href="/manifest.json"> -->
+
+  <!-- Optional: Custom JavaScript -->
+  <!-- <script src="main.js" defer></script> -->
+</head>
+<body>
+
+<div class="container">
+  <h1 class="text-center">Welcome to My Project</h1>
+  <p class="text-left">This is a reusable template.</p>
+  <button class="btn btn-primary mt-2">Get Started</button>
+</div>
+</body>
+<footer class="footer bg-dark">
+  <div class="container footer-container">
+    <!-- Footer Top Section: Logo, About, and Contact Info -->
+    <div class="footer-section">
+      <h2 class="footer-logo">MyBrand</h2>
+      <p class="footer-about">
+        MyBrand is a leader in tech solutions, offering cutting-edge products and services.
+      </p>
+      <ul class="footer-contact">
+        <li><strong>Email:</strong> info@mybrand.com</li>
+        <li><strong>Phone:</strong> +1 234 567 890</li>
+        <li><strong>Location:</strong> 123 Tech Street, Silicon Valley, CA</li>
+      </ul>
+    </div>
+
+    <!-- Footer Navigation Links -->
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul class="footer-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#privacy-policy">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <!-- Footer Social Media Links -->
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <ul class="footer-social">
+        <li><a href="https://facebook.com" target="_blank" aria-label="Facebook"><img src="icons/facebook.svg" alt="Facebook"></a></li>
+        <li><a href="https://twitter.com" target="_blank" aria-label="Twitter"><img src="icons/twitter.svg" alt="Twitter"></a></li>
+        <li><a href="https://instagram.com" target="_blank" aria-label="Instagram"><img src="icons/instagram.svg" alt="Instagram"></a></li>
+        <li><a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><img src="icons/linkedin.svg" alt="LinkedIn"></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer Bottom Section: Copyright and Additional Links -->
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> MyBrand. All rights reserved.</p>
+    <ul class="footer-legal">
+      <li><a href="#terms">Terms & Conditions</a></li>
+      <li><a href="#privacy">Privacy Policy</a></li>
+    </ul>
+  </div>
+</footer>
+
+<!-- Optional JavaScript for Dynamic Year -->
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+
+</html>
