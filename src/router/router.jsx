@@ -10,7 +10,12 @@ const router = createBrowserRouter([
             {
                 path: "/",
                 element: <HomePage />
-            }
+            },
+            {
+                path: "/card-list-animation",
+                element: <CardListAnimation />
+            },
+
         ]
     }
 ])
