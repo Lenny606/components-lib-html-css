@@ -1,0 +1,38 @@
+.parent {
+display: flex;
+}
+
+.items {
+    /*fills space*/
+    flex-grow: 1;
+    /*prevents items from shrinking*/
+    flex-shrink: 0;
+    /*sets the width of the element before grow or shrink happens*/
+    /* set to 0 to have equaly distributed width */
+    flex-basis: 30em;
+}
+.items:first-child{
+    /*fills space twice as much as others*/
+    flex-grow: 2;
+}
+
+.elements {
+    /*shorthand - grow / shrink/ basis */
+    flex: 1 1 0;
+}
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.element {
+    flex: 1 1 0;
+    padding: 20px;
+    margin: 10px;
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
