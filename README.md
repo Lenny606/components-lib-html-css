@@ -1,2 +1,11 @@
 # components-lib-html-css
-# components-lib-html-css
+
+
+
+
+
+
+# firebase setup
+- create a new firebase project 
+- npm install firebase
+- 
