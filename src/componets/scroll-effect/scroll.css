@@ -1,0 +1,45 @@
+/*@import url("https://fonts.googleapis.com....");*/
+
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.scroll-container {
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+h1 {
+    color: #ffff;
+    font-size: 3em;
+    text-align: center;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start; /* child of container */
+}
+
+.one {
+    background: #2ecc71;
+}
+
+.two {
+    background: #3498db;
+}
+
+.three {
+    background: #e74c3c;
+}
+
+.four {
+    background: #f1c40f;
+}

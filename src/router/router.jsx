@@ -5,6 +5,7 @@ import {CardListAnimation} from "../componets/CardListAnimation.jsx";
 import {ResponsiveFlex} from "../pages/ResponsiveFlex.jsx";
 import {SignUp} from "../componets/firebase/signup/SignUp.jsx";
 import {SignIn} from "../componets/firebase/signin/SignIn.jsx";
+import {ScrollEffect} from "../componets/scroll-effect/ScrollEffect.jsx";
 
 const router = createBrowserRouter([
     {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
             {
                 path: "/signin",
                 element: <SignIn/>
+            },
+            {
+                path: "/scroll-effect",
+                element: <ScrollEffect/>
             },
 
         ]
