@@ -6,6 +6,7 @@ import {ResponsiveFlex} from "../pages/ResponsiveFlex.jsx";
 import {SignUp} from "../componets/firebase/signup/SignUp.jsx";
 import {SignIn} from "../componets/firebase/signin/SignIn.jsx";
 import {ScrollEffect} from "../componets/scroll-effect/ScrollEffect.jsx";
+import {DragComponent} from "../componets/dragable-component/DragComponent.jsx";
 
 const router = createBrowserRouter([
     {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
             {
                 path: "/scroll-effect",
                 element: <ScrollEffect/>
+            },
+            {
+                path: "/drag",
+                element: <DragComponent/>
             },
 
         ]

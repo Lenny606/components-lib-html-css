@@ -1,5 +1,8 @@
 # components-lib-html-css
 
+# dragable components
+- npm i react-draggable
+
 
 
 
